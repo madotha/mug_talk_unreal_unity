@@ -42,11 +42,13 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         // Wird für die Sprungmechanik verwendet
+        // Prüft, ob der Spieler in der Luft ist, damit er nicht erneut springen kann
         if (collision.gameObject.tag == "Ground" && isGrounded == false)
         {
             isGrounded = true;
         }
     }
+
 
     // Update is called once per frame
     void Update()

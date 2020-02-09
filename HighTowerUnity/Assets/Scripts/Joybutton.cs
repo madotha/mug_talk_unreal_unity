@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-// Klassen zum Check, ob ImagePointer gedrückt oder losgelassen wurden
+// Klasse zum Check, ob ImagePointer gedrückt oder losgelassen wurde
 public class Joybutton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
 {
     // Boolean zum Ablegen des "Gedrückt"-Status
